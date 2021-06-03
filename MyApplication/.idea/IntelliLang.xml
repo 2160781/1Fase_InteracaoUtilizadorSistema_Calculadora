@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="AndroidDataBinding" injector-id="java">
+      <display-name>Intent.parseIntent (android.content)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("parseIntent").withParameters("android.content.res.Resources", "org.xmlpull.v1.XmlPullParser", "android.util.AttributeSet").definedInClass("android.content.Intent"))]]></place>
+    </injection>
+  </component>
+</project>

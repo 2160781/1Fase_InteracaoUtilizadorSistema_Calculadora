@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="BotonSiguiente">Siguiente</string>
+    <string name="Bienvenido_A_La_Empresa">My Primer activity</string>
+
+    <string name="BotonSiguiente2">Siguiente2</string>
+    <string name="sig2">QR</string>
+
+    <string name="BotonAnteriror">anterior</string>
+    <string name="tv2">Regresaaoinicio</string>
+
+
+    <string name="ESCANEAR">escanea</string>
+    <string name="tv3">escaner</string>
+
+</resources>

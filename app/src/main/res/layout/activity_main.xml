@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo_ipleiria_preto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtN1"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:ems="10"
+                android:hint="numero"
+                android:inputType="number"
+                tools:text="ingrese un numero" />
+
+            <EditText
+                android:id="@+id/txtN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="numero"
+                android:inputType="number"
+                tools:text="ingrese un numero" />
+
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:rotationX="6"
+                android:text="sumar" />
+
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:text="restar" />
+
+            <Button
+                android:id="@+id/btnMultiplicar"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="multiplicar" />
+
+            <Button
+                android:id="@+id/btnDividir"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="dividir" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>
