@@ -43,7 +43,7 @@
                 android:ems="10"
                 android:hint="numero"
                 android:inputType="number"
-                tools:text="ingrese un numero" />
+                tools:text="coloque um número" />
 
             <EditText
                 android:id="@+id/txtN2"
@@ -52,20 +52,20 @@
                 android:ems="10"
                 android:hint="numero"
                 android:inputType="number"
-                tools:text="ingrese un numero" />
+                tools:text="coloque um número" />
 
             <Button
                 android:id="@+id/btnSumar"
                 android:layout_width="134dp"
                 android:layout_height="wrap_content"
                 android:rotationX="6"
-                android:text="sumar" />
+                android:text="somar" />
 
             <Button
                 android:id="@+id/btnRestar"
                 android:layout_width="136dp"
                 android:layout_height="wrap_content"
-                android:text="restar" />
+                android:text="subtrair" />
 
             <Button
                 android:id="@+id/btnMultiplicar"
